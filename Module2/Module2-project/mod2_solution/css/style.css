@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+}
+
+h1 {
+  font-family: Source Code Pro;
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  padding: 0 15px 0 15px;
+}
+
+.col {
+  background-color: rgb(104, 100, 100);
+  margin-left: 20px;
+  padding-left: 10px;
+  position: relative;
+  text-align: left;
+  padding-bottom : 20px;
+}
+
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-6 {
+  float: left;
+  border: 1px solid black;
+}
+
+.col-1 {
+  width: 30%;
+}
+
+.col-2 {
+  width: 30%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+
+.sub-section {
+  width: 120px;
+  /* left : 210px; */
+  float: right;
+  font-family: cascadia code;
+  font-size: 20px;
+  text-align : center;
+  border: 2px solid black;
+  margin: 0;
+}
+
+.one {
+  background-color: rosybrown;
+}
+
+.two {
+  background-color: rgba(169, 54, 54, 0.826);
+  color: white;
+}
+
+.three {
+  background-color: rgb(217, 255, 0);
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .container {
+    margin : 10%;
+  }
+  .col-1  {
+    width:40%;
+    margin-bottom: 20px;
+  }
+
+  .col-2  {
+    width:40%;
+    margin-bottom: 20px;
+  }
+
+  .col-3  {
+    width:83%;
+  }
+}
+
+@media (max-width:767px) {
+
+  .col {
+    margin-bottom: 20px;
+  }
+  .col-1 {
+    width : 100%;
+  }
+
+  .col-2 {
+    width : 100%;
+  }
+
+  .col-3 {
+    width : 100%;
+  }
+}

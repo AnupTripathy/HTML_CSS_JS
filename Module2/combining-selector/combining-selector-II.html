@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Combining Selectors</title>
+    <style>
+        .container>p {
+            color : crimson;
+        }
+
+        .subcontainer>p {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Direct Child Selector '>'</h1>
+
+    <div class="container">
+        <p>This is a text</p>
+    </div>
+
+    <div class="container2">
+        <div class="subcontainer">
+            <p>This is a text of subcontainer</p>
+            <p>This is text-2 of subcontainer</p>
+            <p>This is text-3 of subcontainer</p>
+            <p>This is text-4 of subcontainer</p>
+        </div>
+    </div>
+</body>
+</html>

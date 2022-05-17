@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>High Specificity Always Wins</title>
+    </head>
+
+    <style>
+        section div p{
+            color : blue !important;
+        }
+
+        section div .blue{
+            color : orange;
+        }
+    </style>
+    <body>
+        <h1>High Specificity Always Wins</h1>
+        <section>
+            <div>
+                <p class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio aspernatur suscipit cupiditate facilis, fugit fugiat, libero dolorem, incidunt praesentium nulla natus sint modi at ab? Suscipit, dicta. Ipsam quaerat placeat, in nulla aliquam voluptate. Itaque ratione explicabo ipsam maxime!</p>
+            </div>
+        </section>
+    </body>
+</html>
+
+
+
+

@@ -1,0 +1,10 @@
+Remember.......
+That if the main-container position is relative then
+if the boxes are in absolute postion it will remain in the main-container;
+
+
+
+
+
+
+Default postion of body in relative....

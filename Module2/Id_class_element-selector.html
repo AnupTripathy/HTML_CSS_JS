@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Selector-EL-ID-Class</title>
+
+        <style>
+            .name {
+                font-weight: 700;
+            }
+
+            .blue {
+                color : blue;
+            }
+
+            #blue {
+                color : blue;
+            }
+
+            p {
+                font-style: italic;
+            }
+            .highlight {
+                background-color : yellow;
+            }
+            .highlight-blue {
+                background : blue;
+            }
+            .highlight-orange {
+                background : orange;
+            }
+            .highlight-green {
+                background : greenyellow;
+            }
+            .overweight-text {
+                font-weight: 1000;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class="name">The is a bold text</p>
+        <div id="blue">
+            <p class="italic">This is a italic text</p>
+        </div>
+
+        <p class="blue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa placeat sequi nulla, laboriosam ea explicabo suscipit unde? Totam cupiditate minima iste optio culpa, non temporibus corrupti ab minus, ullam veniam!</p>
+        <p id="blue"><span class="highlight-orange"><span class="overweight-text">Lorem ipsum dolor</span>, sit amet consectetur adipisicing elit.</span> Excepturi soluta accusantium, nobis deleniti autem repellendus neque quo incidunt ducimus, accusamus obcaecati vero quos iste voluptates itaque nihil hic.<span class="highlight"> Dolorem quasi earum, dolore ducimus saepe, veritatis debitis nobis sunt blanditiis ipsa quos minima cupiditate, in aut.</span> Dignissimos recusandae voluptate nostrum quo?</p>
+        <p><span class="overweight-text">Lorem ipsum dolor sit</span>, amet consectetur adipisicing elit. Doloribus provident quaerat et commodi, ad harum in omnis deleniti, obcaecati laboriosam fuga! Voluptatem quas excepturi incidunt facilis odio! Nihil quas fuga numquam omnis quod eveniet, quos, porro atque, aperiam optio nisi.</p>
+        <p class="blue">Lorem ipsum dolor<span class="highlight-green"> sit amet consectetur adipisicing elit</span>. Fuga in quidem quo autem aliquid! Odio unde ea quam nostrum, sint debitis totam porro, expedita, reiciendis corrupti ab sunt deleniti veniam!</p>
+
+        <p></p>
+    </body>
+</html>
